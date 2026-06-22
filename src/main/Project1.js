@@ -51,9 +51,9 @@ export default function Project1({ fullpageApi }) {
                             <iframe src="https://whthdbs9604.dothome.co.kr/mobile_jsy/mobile_jsy.html?mode=mobile" frameBorder="0" title="모바일"></iframe>
                             <div><p>9 : 24</p></div>
                             <div>
-                                <i className="fa-solid fa-signal"></i>
-                                <i className="fa-solid fa-wifi"></i>
-                                <i className="fa-solid fa-battery-full"></i>
+                                <i className="xi-signal-4"></i>
+                                <i className="xi-wifi"></i>
+                                <i className="xi-battery-90"></i>
                             </div>
                             <div className="l_button"></div>
                             <div className="l_button"></div>
@@ -69,21 +69,21 @@ export default function Project1({ fullpageApi }) {
 
             <div className='slide'>
                 
-                <div className="swiper-container" style={{ width: '70%', height: '80vh', position: 'relative' }}>
-                    <button onClick={() => fullpageApi?.moveSlideLeft()} className='back_pro1'><i className='xi-angle-right-thin'></i>표지로 돌아가기</button>
-                    <div className="nested-swiper-pagination" style={{ position: 'absolute', zIndex: 10, top: '40px', left: '50%', transform: 'translateX(-50%)', display: 'flex', gap: '10px' }}></div>
+                <div className="swiper-container">
+                    <button onClick={() => fullpageApi?.moveSlideLeft()} className='back_pro1'><i className='xi-angle-left-thin'></i>표지로<br/>돌아가기</button>
+                    <div className="project1_pagenation"></div>
                     <Swiper modules={[Pagination]}
                         spaceBetween={0}
                         slidesPerView={1}
                         pagination={{
                         clickable: true,
-                        el: '.nested-swiper-pagination', // 위 상자에 버튼들을 주입
+                        el: '.project1_pagenation',
                         renderBullet: function (index, className) {
                             return `<button class="${className} nested-sub-btn">${pro1_slide[index]}</button>`;
                         },
                         }}
                         className="pro1_slide"
-                        style={{ width: '100%', height: '100vh' }}>
+                        style={{ width: '100%', height: '100%' }}>
                         <SwiperSlide>
                             <div className='project_page1'>
                                 <h3>피그마 디자인</h3>

@@ -67,11 +67,46 @@ body::-webkit-scrollbar{display: none;}
 
 .swiper{
     align-items: center;
+    
     .swiper-slide{
-        .project_page1{height: 100vh;}
+        .project_page1{height: fit-content;}
+        
     }
     
 }
 
-.nested-swiper-pagination{width: max-content !important; height: fit-content; }
+.swiper-container{
+    width: 70%; height: 80vh; position: relative; padding-top: 48px;    margin: 0 auto;
+        .back_pro1{
+            border: none; background: none; position: absolute;top:44%; left: -100px;
+            i{display:block; font-size: 50px; margin-bottom: 4px;}
+        }
+    }
 
+.project1_pagenation{width: 60%; height: fit-content;position: absolute; z-index: 10; top: 0 !important; left: 50% !important; transform: translateX(-50%); display: flex;justify-content: center; border-radius: 0px;
+.swiper-pagination-bullet {
+    width: 30%; border-radius: 0px; height: fit-content; color: #2f2f2f; opacity: 1; background: #eee; padding: 8px 0; margin: 0 !important;
+}
+.swiper-pagination-bullet-active{background: #0070CC !important; color: #fff !important;}
+}
+.project2_pagenation{width: 60%; height: fit-content;position: absolute; z-index: 10; top: 0 !important; left: 50% !important; transform: translateX(-50%); display: flex;justify-content: center; border-radius: 0px;
+.swiper-pagination-bullet {
+    width: 30%; border-radius: 0px; height: fit-content; color: #2f2f2f; opacity: 1; background: #eee; padding: 8px 0;margin: 0 !important;
+}
+.swiper-pagination-bullet-active{background: green !important; color: #fff !important;}
+}
+
+.project3_pagenation{width: 60%; height: fit-content;position: absolute; z-index: 10; top: 0 !important; left: 50% !important; transform: translateX(-50%); display: flex;justify-content: center; border-radius: 0px;
+.swiper-pagination-bullet {
+    width: 30%; border-radius: 0px; height: fit-content; color: #2f2f2f; opacity: 1; background: #eee; padding: 8px 0;margin: 0 !important;
+}
+.swiper-pagination-bullet-active{background: green !important; color: #fff !important;}
+}
+
+.project4_pagenation{width: 60%; height: fit-content;position: absolute; z-index: 10; top: 0 !important; left: 50% !important; transform: translateX(-50%); display: flex;justify-content: center; border-radius: 0px;
+.swiper-pagination-bullet {
+    width: 30%; border-radius: 0px; height: fit-content; color: #2f2f2f; opacity: 1; background: #eee; padding: 8px 0;margin: 0 !important;
+}
+.swiper-pagination-bullet-active{background: green !important; color: #fff !important;}
+}
+.class_wrap{width: 100% !important;}

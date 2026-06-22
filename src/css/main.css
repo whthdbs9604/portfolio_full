@@ -39,6 +39,9 @@ body:not(.fp-responsive) .fp-overflow {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .circle_wrap {

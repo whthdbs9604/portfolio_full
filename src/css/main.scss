@@ -16,7 +16,7 @@ header{width: 100%; position: fixed; top: 0;}
 }
 #fp-nav.fp-show-active a.active+.fp-tooltip{color: #000; opacity: 1!important;}
 
-body:not(.fp-responsive) .fp-overflow{height: 100vh; display: flex; align-items: center; justify-content: center;}
+body:not(.fp-responsive) .fp-overflow{height: 100vh; display: flex; align-items: center; justify-content: center; overflow: hidden; height: fit-content;}
 
 .circle_wrap{
     margin-bottom: 64px;
