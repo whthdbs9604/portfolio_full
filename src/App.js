@@ -11,22 +11,28 @@ import './css/main.css'
 const MainFullPage = () => {
   return (
     <ReactFullpage
-      licenseKey={'For_portfolio'}
-      navigation={true}
-      showActiveTooltip={true}
-      anchors={['home', 'project1', 'project2', 'project3']}
-      navigationTooltips={['홈', '프로젝트_1', '프로젝트_2', '프로젝트_3']}
-      scrollingSpeed={800}
-      responsiveWidth={991}
+        licenseKey={'For_portfolio'}
+        key="main-fullpage-key" 
+        navigation={true}
+        showActiveTooltip={true}
+        normalScrollElements=".my-nested-swiper"
+        slidesNavigation={false}
+        controlArrows={false}
+        verticalCentering={false} 
 
-      render={({ fullpageApi }) => (
+        anchors={['home', 'project1', 'project2', 'project3']}
+        navigationTooltips={['홈', '프로젝트_1', '프로젝트_2', '프로젝트_3']}
+        scrollingSpeed={800}
+        responsiveWidth={991}
+
+        render={({ state, fullpageApi }) => (
         <ReactFullpage.Wrapper>
-          <Home fullpageApi={fullpageApi} />
-          <Project1 fullpageApi={fullpageApi} />
-          <Project2 fullpageApi={fullpageApi} />
-          <Project3 fullpageApi={fullpageApi} />
+            <Home fullpageApi={fullpageApi} />
+            <Project1 fullpageApi={fullpageApi} />
+            <Project2 fullpageApi={fullpageApi} />
+            <Project3 fullpageApi={fullpageApi} />
         </ReactFullpage.Wrapper>
-      )}
+        )}
     />
   );
 };

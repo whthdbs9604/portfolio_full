@@ -39,4 +39,48 @@ body:not(.fp-responsive) .fp-overflow {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.circle_wrap {
+  margin-bottom: 64px;
+}
+.circle_wrap p {
+  text-align: center;
+  margin-top: 28px;
+  font-size: 18px;
+}
+.circle_wrap p span {
+  color: #1B76FF;
+  font-weight: 500;
+}
+.circle_wrap .circle {
+  width: 350px;
+  aspect-ratio: 1/1;
+  background: #eee;
+  border-radius: 50%;
+  position: relative;
+}
+.circle_wrap .circle p {
+  font-family: "blacksword";
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 8vw;
+  color: #1B76FF;
+}
+
+.home_scroll {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+}
+.home_scroll p {
+  margin: 0;
+  color: #5D5D5D;
+}
+.home_scroll i {
+  font-size: 24px;
 }/*# sourceMappingURL=main.css.map */
