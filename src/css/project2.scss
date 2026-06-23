@@ -1,0 +1,75 @@
+*,*:after, *:before {box-sizing: border-box;scrollbar-width:none;}
+a{text-decoration: none; color: black; }
+body{font: normal 1rem 'pretendard';color: #404040;word-break: keep-all;}
+body::-webkit-scrollbar{display: none;}
+#story_box2{position: relative;}
+#device_box{max-width: 402px;}
+#device_body2{display: grid; width: 70%; height: 100%; align-items: center;}
+
+#story_box2 .title{color: #404040;margin-top: 8px; position: relative; margin-bottom: 16px;}
+#story_box2 .title h2{font-weight: 500;font-size: 14px;margin-bottom: 12px;}
+#story_box2 .title img{width: 25%;margin-bottom: 10px;}
+#story_box2 .title h3{margin-bottom:0px; margin-top: 0;}
+#story_box2 .title p{margin:4px 0 9px 0;}
+#story_box2 .title div{position: absolute;right: 0; top: 50%; text-align: right; transform: translateY(-50%);}
+#story_box2{
+    button{position: absolute; right: 0; bottom: 32px; border: none; background: none;
+        i{font-size: 50px; display: block; margin-bottom: 4px;}
+        }
+}
+
+#story_box2 .concept h3{margin-bottom: 0px; color: #569B62;border-bottom: 3px solid #569B62; display: inline-block;padding-bottom: 4px;margin-top: 0;}
+#story_box2 .concept p{margin-bottom: 16px;line-height: 22px; font-size: 15px;}
+
+#story_box2 .style_guide h3{margin-bottom: 0px;color: #569B62;border-bottom: 3px solid #569B62; display: inline-block;padding-bottom: 4px; margin-top: 0;}
+#story_box2 .style_guide .color{display: flex;}
+#story_box2 .style_guide .color p{color: white;padding:10px 20px;width: 210px;font-weight: 500;}
+#story_box2 .style_guide .color p span{margin-left: 75px;font-size: 0.8rem; font-weight: 300;}
+#story_box2 .style_guide .color :nth-child(1){margin-right: 20px;}
+#story_box2 .style_guide .color p:nth-child(2){background: #569B62;}
+#story_box2 .style_guide .color p:nth-child(3){background: #404040;}
+
+#story_box2 .style_guide .font{display: flex;}
+#story_box2 .style_guide .font h4{margin-right: 30px; margin-top: 0px;}
+#story_box2 .style_guide .font .pretendard h4{margin-bottom: 10px; font-size: .9rem; font-weight: normal;}
+#story_box2 .style_guide .font .pretendard div{display: flex;text-align: center;}
+#story_box2 .style_guide .font .pretendard div p{font-size: 2.5rem;margin: 8px 40px 8px 0;}
+#story_box2 .style_guide .font .pretendard div p span{display: block;font-size: .8rem;color: #979797;}
+#story_box2 .style_guide .font .pretendard div :nth-child(1){font-weight: normal;}
+#story_box2 .style_guide .font .pretendard div :nth-child(2){font-weight: 500;}
+#story_box2 .style_guide .font .pretendard div :nth-child(3){font-weight: bold;}
+
+#story_box2 .skill{margin-bottom: 24px;}
+#story_box2 .skill h3{margin-bottom: 16px;color: #569B62;border-bottom: 3px solid #569B62; display: inline-block;padding-bottom: 4px; margin-top: 4px;}
+#story_box2 .skill div img{width: 4%; margin-right: 4px;}
+
+#story_box2 .link_in a{padding: 10px 25px; background: #569B62; margin-right: 10px; color: white; border-radius: 20px;box-shadow: 3px 3px 3px rgba(0,0,0,0.3);}
+#story_box2 .link_in a i{margin-right: 8px;}
+.device2{img{width: 100%; border-radius: 3px;}}
+
+.device2{position: relative;padding: 10px 10px; border: 7px ridge #569B62; background: #171717; box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3); border-radius: 10px;z-index: 5; width: 60%; height: 100%; aspect-ratio: 16/9; overflow-y: scroll; margin: 0 auto;}
+
+
+#device_box2{ position: relative;
+        p{text-align: center; font-size: 13px; color: #979797;}
+        span{position: absolute;left: 50%; top: 58%; transform: translate(-50%,-50%); pointer-events: none; background:#569B62; opacity: .6; color: white; padding: 0px 24px; border-radius: 100px; z-index: 6; font-size: 16px; line-height: 48px;
+        i{margin-right: 8px; font-size: 28px; vertical-align: text-bottom;}}
+}
+
+.swiper{
+    align-items: center;
+    
+    .swiper-slide{
+        .project_page1{height: fit-content;}
+        
+    }
+    
+}
+
+.swiper-container{
+    width: 70%; height: 80vh; position: relative; padding-top: 48px;    margin: 0 auto;
+        .back_pro1{
+            border: none; background: none; position: absolute;top:44%; left: -100px;
+            i{display:block; font-size: 50px; margin-bottom: 4px;}
+        }
+    }

@@ -62,7 +62,6 @@ export default function Project1({ fullpageApi }) {
 
                             <button onClick={() => fullpageApi?.moveSlideRight()}><i className='xi-angle-right-thin'></i>기획서 보기</button>
                         </div>
-                        
                     </div>
                 </div>
             </div>

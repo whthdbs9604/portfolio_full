@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
-import '../css/project1.css';
+import '../css/project3.css';
 import 'swiper/css/pagination';
 
 export default function Project3({ fullpageApi }) {
@@ -13,18 +13,20 @@ export default function Project3({ fullpageApi }) {
         <div className="section">
 
             <div className='slide'>
-                <div id="device_body">
-                    <div id="story_box">
+                <div id="device_body3">
+                    <div id="story_box3">
                         <div className="title">
-                            <h2>SITE REACT RENEWAL PROJECT</h2>
-                            <img src="img/logo_blue.svg" alt="로고" />
-                            <h3>아식스 리액트 웹 프로젝트 작업 (진행중)</h3>
-                            <p>프로젝트 진행자 : 조소윤</p>
+                            <h2>SITE RENEWAL PROJECT</h2>
+                            <img src="img/asics_logo.svg" alt="로고" />
+                            <div>
+                                <h3>아식스 웹 프로젝트 작업 (진행중)</h3>
+                                <p>프로젝트 진행자 : 조소윤</p>
+                            </div>
                         </div>
 
                         <div className="concept">
                             <h3>CONCEPT</h3>
-                            <p>플레이스테이션은 게임 기기를 주력으로 독점 게임을 함께 제공하는 플랫폼으로 한 홈페이지에 여러 컨텐츠가 있어 깔끔하고 간편한 이용감으로 사용자가 유용하게 사용하는 것에 집중하여 디자인했습니다.</p>
+                            <p>아식스는 스포츠 브랜드임에도 불구하고 같은 슬라이드의 반복 사용으로 지루한 느낌이 드는 기존 사이트를 감성을 살린 리액트 사이트로 리뉴얼했습니다.</p>
                         </div>
 
                         <div className="skill">
@@ -33,21 +35,21 @@ export default function Project3({ fullpageApi }) {
                                 <img src="img/ps.png" alt="photoshop"/>
                                 <img src="img/ai.png" alt="illust"/>
                                 <img src="img/figma.png" alt="figma"/>
-                                <img src="img/html.png" alt="html"/>
-                                <img src="img/css.png" alt="css"/>
+                                <img src="img/react.png" alt="html"/>
                                 <img src="img/js.png" alt="js"/>
-                                <img src="img/jq.png" alt="jquery"/>
+                                <img src="img/github.png" alt="vercel"/>
+                                <img src="img/vercel.png" alt="vercel"/>
                             </div>
                         </div>
-
-                        <div className="link_in">
-                            <a href="https://www.playstation.com/ko-kr/"><i className="xi-external-link"></i>기존 홈페이지</a>
-                        </div>
-
+                        <button className='pro3_next' onClick={() => fullpageApi?.moveSlideRight()}><i className='xi-angle-right-thin'></i>기획서 보기</button>
                     </div>
 
-                    <div id="btn_box">
-                            <button onClick={() => fullpageApi?.moveSlideRight()}><i className='xi-angle-right-thin'></i>기획서 보기</button>
+                    <div id="device_box3">
+                        <span><i className='xi-touch'></i>홈페이지 바로가기</span>
+                        <p>*아래는 예시 이미지 입니다.</p>
+                        <div className="device3">
+                            <a href="https://react-asics.vercel.app/"><img src="img/asics_pic.png" alt='아식스디자인' /></a>
+                        </div>
                     </div>
                 </div>
             </div>
