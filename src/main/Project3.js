@@ -46,7 +46,7 @@ export default function Project3({ fullpageApi }) {
 
                     <div id="device_box3">
                         <span><i className='xi-touch'></i>홈페이지 바로가기</span>
-                        <p>*아래는 예시 이미지 입니다.</p>
+                        <p>*아래는 미리보기 이미지 입니다.</p>
                         <div className="device3">
                             <a href="https://react-asics.vercel.app/"><img src="img/asics_pic.png" alt='아식스디자인' /></a>
                         </div>

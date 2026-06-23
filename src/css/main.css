@@ -62,6 +62,7 @@ body:not(.fp-responsive) .fp-overflow {
   background: #eee;
   border-radius: 50%;
   position: relative;
+  margin: 0 auto;
 }
 .circle_wrap .circle p {
   font-family: "blacksword";
@@ -71,8 +72,17 @@ body:not(.fp-responsive) .fp-overflow {
   top: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
-  font-size: 8vw;
+  font-size: 130px;
   color: #1B76FF;
+}
+.circle_wrap .icon_img {
+  display: flex;
+  justify-content: space-around;
+  gap: 4px;
+  padding-top: 24px;
+}
+.circle_wrap .icon_img img {
+  width: 30px;
 }
 
 .home_scroll {

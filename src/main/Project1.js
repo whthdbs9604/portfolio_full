@@ -19,7 +19,6 @@ export default function Project1({ fullpageApi }) {
                             <h2>MOBILE RENEWAL PROJECT</h2>
                             <img src="img/logo_blue.svg" alt="로고" />
                             <h3>플레이스테이션 모바일 웹 프로젝트 작업 (진행중)</h3>
-                            <p>프로젝트 진행자 : 조소윤</p>
                         </div>
 
                         <div className="concept">
@@ -28,7 +27,7 @@ export default function Project1({ fullpageApi }) {
                         </div>
 
                         <div className="skill">
-                            <h3>SKILL</h3>
+                            <h3>TOOL</h3>
                             <div>
                                 <img src="img/ps.png" alt="photoshop"/>
                                 <img src="img/ai.png" alt="illust"/>

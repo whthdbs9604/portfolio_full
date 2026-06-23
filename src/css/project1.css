@@ -57,7 +57,6 @@ body::-webkit-scrollbar {
   border-bottom: 3px solid #0070CC;
   display: inline-block;
   padding-bottom: 4px;
-  margin-top: 0;
 }
 
 #story_box .concept p {
@@ -157,11 +156,13 @@ body::-webkit-scrollbar {
   border-bottom: 3px solid #0070CC;
   display: inline-block;
   padding-bottom: 4px;
+  margin-top: 0;
 }
 
 #story_box .skill div img {
   width: 7%;
   margin-right: 4px;
+  min-width: 30px;
 }
 
 #story_box .link_in a {

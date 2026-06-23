@@ -19,7 +19,7 @@ export default function Project5({ fullpageApi }) {
                             <h2>TEAM PROJECT</h2>
                             <img src="img/ticket_logo.png" alt="로고" />
                             <h3>대학로티켓 모바일 팀 프로젝트 작업 (진행중)</h3>
-                            <p>프로젝트 진행자 : 조소윤</p>
+                            <p>프로젝트 리더 : 조소윤 | 기여도 : 25%</p>
                         </div>
 
                         <div className="concept">

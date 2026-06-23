@@ -20,6 +20,7 @@ body::-webkit-scrollbar {
 
 #story_box2 {
   position: relative;
+  padding: 0 15%;
 }
 
 #device_box {
@@ -47,7 +48,7 @@ body::-webkit-scrollbar {
 }
 
 #story_box2 .title img {
-  width: 25%;
+  width: 20%;
   margin-bottom: 10px;
 }
 
@@ -91,7 +92,7 @@ body::-webkit-scrollbar {
 }
 
 #story_box2 .concept p {
-  margin-bottom: 16px;
+  margin-bottom: 4px;
   line-height: 22px;
   font-size: 15px;
 }
@@ -191,8 +192,9 @@ body::-webkit-scrollbar {
 }
 
 #story_box2 .skill div img {
-  width: 4%;
+  width: 3%;
   margin-right: 4px;
+  min-width: 30px;
 }
 
 #story_box2 .link_in a {
@@ -221,7 +223,7 @@ body::-webkit-scrollbar {
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   z-index: 5;
-  width: 60%;
+  width: 70%;
   height: 100%;
   aspect-ratio: 16/9;
   overflow-y: scroll;
@@ -235,15 +237,16 @@ body::-webkit-scrollbar {
   text-align: center;
   font-size: 13px;
   color: #979797;
+  margin: 6px 0;
 }
 #device_box2 span {
   position: absolute;
   left: 50%;
-  top: 58%;
+  top: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
   background: #569B62;
-  opacity: 0.6;
+  opacity: 0.9;
   color: white;
   padding: 0px 24px;
   border-radius: 100px;

@@ -19,7 +19,6 @@ export default function Project2({ fullpageApi }) {
                             <img src="img/blanc_logo.png" alt="로고" />
                             <div>
                                 <h3>블랑네이처 웹 반응형 프로젝트 작업 (진행중)</h3>
-                                <p>프로젝트 진행자 : 조소윤</p>
                             </div>
                         </div>
 
@@ -46,7 +45,7 @@ export default function Project2({ fullpageApi }) {
 
                     <div id="device_box2">
                         <span><i className='xi-touch'></i>홈페이지 바로가기</span>
-                        <p>*아래는 예시 이미지 입니다.</p>
+                        <p>*아래는 미리보기 이미지 입니다.</p>
                         <div className="device2">
                             <a href="https://whthdbs9604.dothome.co.kr/responsive_jsy/responsive_jsy.html"><img src="img/blanc_pic.png" alt='블랑네이처디자인' /></a>
                         </div>

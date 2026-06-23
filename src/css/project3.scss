@@ -2,7 +2,7 @@
 a{text-decoration: none; color: black; }
 body{font: normal 1rem 'pretendard';color: #404040;word-break: keep-all;}
 body::-webkit-scrollbar{display: none;}
-#story_box3{position: relative;}
+#story_box3{position: relative; padding: 0 15%;}
 #device_box{max-width: 402px;}
 #device_body3{display: grid; width: 70%; height: 100%; align-items: center;}
 
@@ -47,7 +47,7 @@ body::-webkit-scrollbar{display: none;}
 #story_box3 .link_in a i{margin-right: 8px;}
 .device3{img{width: 100%; border-radius: 3px;}}
 
-.device3{position: relative;padding: 10px 10px; border: 7px ridge #001E63; background: #171717; box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3); border-radius: 10px;z-index: 5; width: 60%; height: 100%; aspect-ratio: 16/9; overflow-y: scroll; margin: 0 auto;}
+.device3{position: relative;padding: 10px 10px; border: 7px ridge #001E63; background: #171717; box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3); border-radius: 10px;z-index: 5; width: 70%; height: 100%; aspect-ratio: 16/9; overflow-y: scroll; margin: 0 auto;}
 
 
 #device_box3{ position: relative;
