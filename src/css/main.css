@@ -23,7 +23,7 @@ header {
   width: auto !important;
   transition: all 0.3s ease;
   font-size: 14px !important;
-  color: #6e6e6e;
+  color: #6e6e6e !important;
 }
 #fp-nav ul li a.active {
   color: #000;

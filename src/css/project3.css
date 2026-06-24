@@ -75,6 +75,7 @@ body::-webkit-scrollbar {
   bottom: -50%;
   border: none;
   background: none;
+  z-index: 10;
 }
 #story_box3 button i {
   font-size: 50px;
