@@ -75,6 +75,7 @@ body::-webkit-scrollbar {
   bottom: -50%;
   border: none;
   background: none;
+  z-index: 10;
 }
 #story_box2 button i {
   font-size: 50px;
@@ -269,7 +270,7 @@ body::-webkit-scrollbar {
 }
 
 .swiper-container {
-  width: 70%;
+  width: 55%;
   height: 80vh;
   position: relative;
   padding-top: 48px;
