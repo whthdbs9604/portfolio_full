@@ -13,8 +13,8 @@ header {
 #fp-nav ul li {
   text-align: right;
   margin: 24px 0 !important;
-  height: 24px;
-  width: 150px;
+  height: 24px !important;
+  width: 150px !important;
 }
 #fp-nav ul li .fp-tooltip {
   display: block !important;
