@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 
 export default function Project1({ fullpageApi }) {
 
-    const pro1_slide = ['개요', '개발 스펙', '기능 시연'];
+    const pro1_slide = ['UX/기획', '핵심 기능', 'UIUX'];
 
 
     return(
@@ -84,7 +84,23 @@ export default function Project1({ fullpageApi }) {
                         style={{ width: '100%', height: '100%' }}>
                         <SwiperSlide>
                             <div className='project_page1'>
-                                <h3>피그마 디자인</h3>
+                                <div>
+                                    <div className='play_pic'>
+                                        <img src="img/playstation.png" alt="playstation"/>
+                                    </div>
+                                    <div className='play_ex'>
+                                        <div>
+                                            <h3>UX / 기획</h3>
+                                            <p> 왼쪽의 기존 플레이스테이션 사이트는 반응형 사이트로 PC버젼에서는 크게 문제가 없어보이나 모바일 화면으로 크기를 줄이면 PC버젼에서 쓰이는 레이아웃을 가감없이 사이즈만 줄여 모바일에서 특히 사용하기 불편한 단점이 있습니다.</p>
+                                            <p>
+                                                플레이스토어는 게임기기 제작에 특화된 브랜드로 독점 게임, 멤버십, 게임 스토어 등 한 사이트에 많은 컨텐츠를 가졌으나 그 순서가 고르지 못하고 중복된 글이 많아 복잡함이 늘어 모바일을 가장 많이 사용하는 최근의 소비자의 입장에서 바라는 빠르고 직관적인 UXUI에 많이 뒤쳐진다고 생각했습니다.
+                                            </p>
+                                            <p>
+                                                그러므로 브랜드의 색채는 죽이지 않으면서 여러 콘텐츠를 소비자가 이용하기 간단하고 직관적으로 확인하기 쉬운 모바일 디자인으로 사이트를 개편하고자 했습니다. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>2</SwiperSlide>

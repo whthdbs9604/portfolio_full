@@ -312,12 +312,32 @@ body::-webkit-scrollbar {
   height: -moz-fit-content;
   height: fit-content;
 }
-
+.swiper .swiper-slide .project_page1 > div {
+  display: flex;
+}
+.swiper .swiper-slide .project_page1 .play_pic {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 680px;
+  overflow-y: scroll;
+  width: 90%;
+  border: 8px ridge #0070CC;
+  border-radius: 24px;
+  background: #000;
+  padding: 10px;
+}
+.swiper .swiper-slide .project_page1 .play_pic img {
+  width: 100%;
+  border-radius: 8px;
+}
+.swiper .swiper-slide .project_page1 .play_ex {
+  padding-left: 5%;
+}
 .swiper-container {
   width: 70%;
   height: 80vh;
   position: relative;
-  padding-top: 48px;
+  padding-top: 80px;
   margin: 0 auto;
 }
 .swiper-container .back_pro1 {
@@ -347,19 +367,18 @@ body::-webkit-scrollbar {
   border-radius: 0px;
 }
 .project1_pagenation .swiper-pagination-bullet {
-  width: 30%;
+  width: 15%;
   border-radius: 0px;
   height: -moz-fit-content;
   height: fit-content;
   color: #2f2f2f;
   opacity: 1;
-  background: #eee;
+  background: white;
   padding: 8px 0;
   margin: 0 !important;
 }
 .project1_pagenation .swiper-pagination-bullet-active {
-  background: #0070CC !important;
-  color: #fff !important;
+  border-bottom: 2px solid #0070CC;
 }
 
 .project2_pagenation {

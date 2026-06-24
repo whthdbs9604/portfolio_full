@@ -13,7 +13,7 @@ body::-webkit-scrollbar{display: none;}
 #story_box3 .title p{margin:4px 0 9px 0;}
 #story_box3 .title div{position: absolute;right: 0; top: 50%; text-align: right; transform: translateY(-50%);}
 #story_box3{
-    button{position: absolute; right: 0; bottom: 32px; border: none; background: none;
+    button{position: absolute; right: 0; bottom: -50%; border: none; background: none;
         i{font-size: 50px; display: block; margin-bottom: 4px;}
         }
 }

@@ -17,7 +17,7 @@ const MainFullPage = () => {
         key="main-fullpage-key" 
         navigation={true}
         showActiveTooltip={true}
-        normalScrollElements=".device2, .device3, .device4"
+        normalScrollElements=".device2, .device3, .device4, .play_pic"
         slidesNavigation={false}
         controlArrows={false}
         verticalCentering={false} 
