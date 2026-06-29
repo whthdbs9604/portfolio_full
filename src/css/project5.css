@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 }
 
 #device_box4 {
-  max-width: 402px;
+  max-width: 360px;
 }
 
 #story_box4 .title {
@@ -304,34 +304,6 @@ body::-webkit-scrollbar {
 #device_box4 .device4 button i {
   font-size: 50px;
   display: block;
-  margin-bottom: 4px;
-}
-
-.swiper {
-  align-items: center;
-}
-.swiper .swiper-slide .project_page1 {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.swiper-container {
-  width: 70%;
-  height: 80vh;
-  position: relative;
-  padding-top: 48px;
-  margin: 0 auto;
-}
-.swiper-container .back_pro1 {
-  border: none;
-  background: none;
-  position: absolute;
-  top: 44%;
-  left: -100px;
-}
-.swiper-container .back_pro1 i {
-  display: block;
-  font-size: 50px;
   margin-bottom: 4px;
 }
 

@@ -23,10 +23,6 @@ body::-webkit-scrollbar {
   padding: 0 15%;
 }
 
-#device_box {
-  max-width: 402px;
-}
-
 #device_body2 {
   display: grid;
   width: 70%;
@@ -259,32 +255,4 @@ body::-webkit-scrollbar {
   margin-right: 8px;
   font-size: 28px;
   vertical-align: text-bottom;
-}
-
-.swiper {
-  align-items: center;
-}
-.swiper .swiper-slide .project_page1 {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.swiper-container {
-  width: 55%;
-  height: 80vh;
-  position: relative;
-  padding-top: 48px;
-  margin: 0 auto;
-}
-.swiper-container .back_pro1 {
-  border: none;
-  background: none;
-  position: absolute;
-  top: 44%;
-  left: -100px;
-}
-.swiper-container .back_pro1 i {
-  display: block;
-  font-size: 50px;
-  margin-bottom: 4px;
 }/*# sourceMappingURL=project2.css.map */

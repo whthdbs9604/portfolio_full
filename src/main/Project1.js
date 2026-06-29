@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 
 export default function Project1({ fullpageApi }) {
 
-    const pro1_slide = ['UX/기획', '핵심 기능', 'UIUX'];
+    const pro1_slide = ['UX/기획' , '핵심 기능' , 'UIUX'];
 
 
     return(
@@ -66,7 +66,6 @@ export default function Project1({ fullpageApi }) {
             </div>
 
             <div className='slide'>
-                
                 <div className="swiper-container">
                     <button onClick={() => fullpageApi?.moveSlideLeft()} className='back_pro1'><i className='xi-angle-left-thin'></i>표지로<br/>돌아가기</button>
                     <div className="project1_pagenation"></div>

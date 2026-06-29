@@ -3,7 +3,6 @@ a{text-decoration: none; color: black; }
 body{font: normal 1rem 'pretendard';color: #404040;word-break: keep-all;}
 body::-webkit-scrollbar{display: none;}
 #story_box2{position: relative; padding: 0 15%;}
-#device_box{max-width: 402px;}
 #device_body2{display: grid; width: 70%; height: 100%; align-items: center;}
 
 #story_box2 .title{color: #404040;margin-top: 8px; position: relative; margin-bottom: 16px;}
@@ -56,20 +55,3 @@ body::-webkit-scrollbar{display: none;}
         i{margin-right: 8px; font-size: 28px; vertical-align: text-bottom;}}
 }
 
-.swiper{
-    align-items: center;
-    
-    .swiper-slide{
-        .project_page1{height: fit-content;}
-        
-    }
-    
-}
-
-.swiper-container{
-    width: 55%; height: 80vh; position: relative; padding-top: 48px;    margin: 0 auto;
-        .back_pro1{
-            border: none; background: none; position: absolute;top:44%; left: -100px;
-            i{display:block; font-size: 50px; margin-bottom: 4px;}
-        }
-    }

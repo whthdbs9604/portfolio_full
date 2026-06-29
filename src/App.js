@@ -15,7 +15,7 @@ const MainFullPage = () => {
     <ReactFullpage
         licenseKey={'For_portfolio'}
         key="main-fullpage-key" 
-        navigation={true}
+        navigation={false}
         showActiveTooltip={true}
         normalScrollElements=".device2, .device3, .device4, .play_pic"
         slidesNavigation={false}

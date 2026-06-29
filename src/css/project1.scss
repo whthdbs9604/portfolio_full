@@ -3,7 +3,7 @@ a{text-decoration: none; color: black; }
 body{font: normal 1rem 'pretendard';color: #404040;word-break: keep-all;}
 body::-webkit-scrollbar{display: none;}
 #story_box{position: relative;}
-#device_box{max-width: 402px;}
+#device_box{max-width: 350px;}
 
 #story_box .title{color: #404040;margin-top: 40px;}
 #story_box .title h2{font-weight: 500;font-size: 14px;margin-bottom: 12px;}
@@ -71,7 +71,7 @@ body::-webkit-scrollbar{display: none;}
     .swiper-slide{
         .project_page1{height: fit-content;
             >div{display: flex;}
-            .play_pic{width: fit-content; height: 680px; overflow-y: scroll; border: 8px ridge #0070CC; border-radius: 24px; background: #000; padding: 10px; aspect-ratio: 16/9;
+            .play_pic{width: fit-content; height: 550px; overflow-y: scroll; border: 8px ridge #0070CC; border-radius: 24px; background: #000; padding: 10px; aspect-ratio: 16/9;
                 img{width: 100%; border-radius: 8px;}}
             .play_ex{padding-left:5%; h3{}}
         }
@@ -81,7 +81,7 @@ body::-webkit-scrollbar{display: none;}
 }
 
 .swiper-container{
-    width: 70%; height: 80vh; position: relative; padding-top: 80px;    margin: 0 auto;
+    width: 70%; height: 80vh; position: relative; padding-top: 80px;    margin: 0 auto; max-width: 750px;
         .back_pro1{
             border: none; background: none; position: absolute;top:44%; left: -100px;
             i{display:block; font-size: 50px; margin-bottom: 4px;}
